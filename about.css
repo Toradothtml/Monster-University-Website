@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e1ecfe;
+}
+
+header {
+  text-align: center;
+  background-color: #cfe4ff;
+  padding: 20px;
+  border-bottom: 2px solid #4c7dff;
+}
+
+.header-logo {
+  width: 120px;
+  display: block;
+  margin: 0 auto;
+}
+
+header h1 {
+  color: #1b2a4a;
+  font-weight: 600;
+}
+
+header p {
+  color: #2a3f6e;
+}
+
+.nav {
+  justify-content: center;
+}
+
+.nav a {
+  color: royalblue;
+  font-weight: 500;
+}
+
+.nav a.active {
+  background-color: #4c7dff;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #4c7dff;
+  border: none;
+}
+
+/* About page background */
+.about-gallery {
+  background-color: #f0f4ff; /* soft light blue */
+  padding: 40px 20px;
+  border-radius: 12px;
+}
+
+/* Page title */
+.about-gallery h2 {
+  color: #1b2a4a;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+/* About cards container */
+.about-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Individual card */
+.about-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 25px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+/* Hover effect for cards */
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Card title */
+.about-title {
+  color: #1b2a4a;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Card text */
+.about-text {
+  color: #2a3f6e;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+}

@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e1ecfe;
+}
+
+header {
+  text-align: center;
+  background-color: #cfe4ff;
+  padding: 20px;
+  border-bottom: 2px solid #4c7dff;
+}
+
+.header-logo {
+  width: 120px;
+  display: block;
+  margin: 0 auto;
+}
+
+header h1 {
+  color: #1b2a4a;
+  font-weight: 600;
+}
+
+header p {
+  color: #2a3f6e;
+}
+
+.nav {
+  justify-content: center;
+}
+
+.nav a {
+  color: royalblue;
+  font-weight: 500;
+}
+
+.nav a.active {
+  background-color: #4c7dff;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #4c7dff;
+  border: none;
+}
+
+/* Section title */
+.deans-gallery h2 {
+  color: #1b2a4a; /* dark blue for contrast */
+  font-weight: 600;
+}
+
+/* Student Cards */
+.student-card {
+  border-radius: 12px;
+  border: none; /* removes default card border */
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+
+/* Hover effect for cards */
+.student-card:hover {
+  transform: translateY(-6px); /* lifts card on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* soft shadow */
+}
+
+/* Images inside cards */
+.student-card img {
+  height: 250px; /* fixed height for all cards */
+  object-fit: cover; /* crops image nicely without stretching */
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* Card titles */
+.student-card .card-title {
+  color: #1b2a4a;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+/* Card descriptions */
+.student-card .card-text {
+  color: #2a3f6e;
+  font-size: 14px;
+}
